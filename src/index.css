@@ -111,3 +111,21 @@ body {
 .game-info-move:hover {
     background-color: rgba(255, 255, 255, 0.5);
 }
+
+@media (max-width: 600px) {
+  .game {
+      display: grid;
+      width: 100%;
+      grid-template-columns: 100%;
+      grid-template-rows: 65% 1fr;
+  }
+  .game-info-status-container {
+    padding: 1.5rem;
+  }
+  .game-info-move {
+    padding: 0.50rem;
+  }
+  .game-info-move-list {
+      height: auto;
+  }
+}

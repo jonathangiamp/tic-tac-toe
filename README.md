@@ -3,9 +3,9 @@
 **ToDo :**
 + ~~Add .eslintrc~~
 + ~~Complete package.json~~
-+ ~~Use grid for square~~
++ ~~Use grid for square~
 + ~~Show players' numbers when it's their turns~~
 + ~~Factoring square CSS border~~ 
-+ Make the game responsive
++ ~~Make the game responsive~~
 + Use CSS-in-JSs
 + Rewrite HTML
