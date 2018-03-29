@@ -36,21 +36,12 @@ html, body {
 
 .container-board-row {
   height: 100%;
-}
-
-.board-row {
-  display: flex;
-  height: calc(100%/3);
-}
-
-.board-row:nth-child(2n) {
-  border-top: var(--border);
-  border-bottom: var(--border);
+  display: grid;
+  grid-template-columns: repeat(3, calc(100%/3));
+  grid-template-rows: repeat(3, calc(100%/3));
 }
 
 .square {
-  width: calc(100%/3);
-  height: 100%;
   display: flex;
   align-items: center;
   align-content: center;
@@ -58,9 +49,28 @@ html, body {
   font-size: 2.5rem;
 }
 
-.square:nth-child(2n) {
-  border-left: var(--border);
+.square:nth-child(1), 
+.square:nth-child(2),
+.square:nth-child(3) {
+  border-bottom: var(--border);
+}
+
+.square:nth-child(7), 
+.square:nth-child(8),
+.square:nth-child(9) {
+  border-top: var(--border);
+}
+
+.square:nth-child(1), 
+.square:nth-child(4),
+.square:nth-child(7) {
   border-right: var(--border);
+}
+
+.square:nth-child(3), 
+.square:nth-child(6),
+.square:nth-child(9) {
+  border-left: var(--border);
 }
 
 .square-value {
