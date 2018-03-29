@@ -4,7 +4,6 @@
 + ~~Add .eslintrc~~
 + ~~Complete package.json~~
 + ~~Use grid for square~~
-+ Show players' numbers when it's their turns
-+ Develop and display a score system
++ ~~Show players' numbers when it's their turns~~
 + Make the game responsive
 + Use CSS-in-JSs
