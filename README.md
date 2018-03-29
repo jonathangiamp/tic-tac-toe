@@ -1,6 +1,8 @@
 # React Tic-Tac-Toe Game
 
 **v3 :**
++ ~~Generate squares with map~~
++ Draw Message 
 + Use CSS-in-JS
 
 **~~v2 :~~**

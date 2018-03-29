@@ -12,17 +12,13 @@ class Board extends Component {
   }
 
   render() {
+    const squares = Array(9)
+      .fill(null)
+      .map((value, index) => this.renderSquare(index));
+
     return (
       <main className="container-board-row">
-        {this.renderSquare(0)}
-        {this.renderSquare(1)}
-        {this.renderSquare(2)}
-        {this.renderSquare(3)}
-        {this.renderSquare(4)}
-        {this.renderSquare(5)}
-        {this.renderSquare(6)}
-        {this.renderSquare(7)}
-        {this.renderSquare(8)}
+        { squares }
       </main>
     );
   }
