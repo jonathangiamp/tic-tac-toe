@@ -1,7 +1,16 @@
 {
   "name": "tic-tac-toe",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.1",
+  "author": "Jonathan Giamporcaro",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathangiamp/tic-tac-toe"
+  },
+  "keywords": [
+    "tic-tac-toe",
+    "react",
+    "game"
+  ],
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",

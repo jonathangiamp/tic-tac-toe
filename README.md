@@ -2,7 +2,7 @@
 
 **ToDo :**
 + ~~Add .eslintrc~~
-+ Complete package.json
++ ~~Complete package.json~~
 + Use grid for square
 + Show players' numbers when it's their turns
 + Develop and display a score system
