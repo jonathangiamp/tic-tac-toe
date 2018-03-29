@@ -13,7 +13,7 @@ class Board extends Component {
 
   render() {
     return (
-      <div className="container-board-row">
+      <main className="container-board-row">
         {this.renderSquare(0)}
         {this.renderSquare(1)}
         {this.renderSquare(2)}
@@ -23,7 +23,7 @@ class Board extends Component {
         {this.renderSquare(6)}
         {this.renderSquare(7)}
         {this.renderSquare(8)}
-      </div>
+      </main>
     );
   }
 }

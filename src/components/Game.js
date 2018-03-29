@@ -76,22 +76,22 @@ class Game extends Component {
       `It's ${this.state.xIsNext ? 'Player 1' : 'Player 2'}'s turn`;
 
     return (
-      <div className="game">
-        <div className="game-board">
+      <section className="game">
+        <section className="game-board">
           <Board
             squares={current.squares}
             onClick={i => this.handleClick(i)}
           />
-        </div>
-        <div className="game-info">
-          <div className="game-info-status-container">
+        </section>
+        <section className="game-info">
+          <header className="game-info-status-container">
             <p className="game-info-status">{status}</p>
-          </div>
-          <div className="game-info-history-container">
+          </header>
+          <aside className="game-info-history-container">
             <ul className="game-info-list">{moves}</ul>
-          </div>
-        </div>
-      </div>
+          </aside>
+        </section>
+      </section>
     );
   }
 }
